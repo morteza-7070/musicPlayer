@@ -1,0 +1,24 @@
+
+
+.song{
+    
+    .song-container{
+        position: relative;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            width: 40vw;
+            height: 80vh;
+        }
+}
+    
+    
+    
+   
+}
+body{
+    background-color: #00d2d3;
+}

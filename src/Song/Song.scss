@@ -1,0 +1,38 @@
+.song-List{
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: chartreuse;
+    box-shadow: 3px 2p 50px rgb(204, 235, 235);
+    overflow: scroll;
+    .listItem{
+        display: flex;
+        flex-direction: column;
+        padding: 4vh 2vw;
+        align-items: center;
+    }
+}
+
+.song1{
+    &:hover{background-color: blanchedalmond;}
+    cursor: pointer;
+    width: 15vw;
+    height: 50vh;
+    .song-container{
+        
+        
+        img{width: 10vw;
+            height: 30vh;
+        }
+        h1 ,h2{
+            font-size: 1rem;
+            padding-top: 1vh;
+        }
+        .flex{margin-top: 2vh;
+        }
+       
+    }
+}

@@ -1,0 +1,52 @@
+$on-color:red;
+$to-color:blue;
+$tree-color:#dfe6e9;
+$for-color:#81ecec;
+$five-color:#fab1a0;
+
+body{ text-align: center;
+     
+    h1{text-align: center; padding-top: 50px;}
+
+
+
+    .player
+    {min-height: 60vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   }
+.item-control{
+    width: 50%;
+   
+    display: flex;
+    input{width: 100%;
+        padding: 1rem 0;
+       
+    }
+    p{padding: 1rem;}
+    
+    
+    
+}
+
+
+    
+}
+.play-control{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 50%;
+    svg{cursor: pointer;;}
+    .back ,.play, .next{
+        padding: 0 10px;
+    }
+    
+   
+}
